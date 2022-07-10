@@ -1,0 +1,205 @@
+/*
+common
+*****************************/
+html, 
+body {
+    height: 100%;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    border-left: 1px solid #acc;
+    border-right: 1px solid #acc;
+}
+ 
+/*
+Post
+****************************/
+
+.Post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.Post_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+    left: 50px;
+    bottom: 0;
+}
+
+
+.Post_form textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+    left: 53px;
+    bottom: 0px;
+    height: 103px;
+}
+#file{
+    width: 50%;
+    border: 0;
+}
+
+.btn {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+.posts ul {
+    padding: 0;
+}
+.posts li {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+    list-style: none;
+}
+
+ .posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    top: 18px;
+    right: 30px;
+ }
+ 
+ .posts li .menu{
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px; 
+    font-size: 13px;
+    border-radius: 3px;
+   
+ }
+ .posts li .like{
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+}
+ 
+
+ .btn {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 17px;
+    position: relative;
+    border-radius: 4px;
+    border: none;
+    left: 80px;
+    bottom: 0px;
+    padding: 10px;
+    width: 15%;
+}
+
+ .menu {
+    display: none;
+}
+ .posts li .menu a{
+    text-decoration: none;
+
+ }
+.posts li .logo {
+    flex-basis: 15%;
+}
+.header {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.header img{
+    width: 60px;
+}
+.header h1{
+    padding-left: 20px ;
+}
+
+
+
+
+.body img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.posts li .logo img {
+    width: 50px;
+    margin:10px;
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+    margin: 0px 17px;
+    font-size: 1.2vw;
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+    color: gray;
+}
+
+
+ 
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+}
+    
+.posts ul li .img img {
+    width: 95%;
+    border-radius: 10px;
+}
+#update{
+    background-color: blue;
+    color: white;
+    width: 21%;
+    border-radius: 8%;
+}
+
+.btn-update{
+    display: flex;
+    align-items: center;
+}
+.btn-update button {
+    background-color: black;
+    border: 0px;
+    padding: 10px 23px;
+    border-radius: 9px;
+    color: white;
+}
+.btn-update a{
+    background-color: black;
+    border: 0px;
+    padding: 10px 23px;
+    border-radius: 9px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.Post_form.edit{
+    display:block;
+}
+.Post_form.edit input{
+    left:0px;
+}
+.Post_form.edit img{
+    width:70%;
+    border-radius: 10px;
+}
