@@ -26,7 +26,7 @@ def index(request):
     posts = Post.objects.all().order_by('-created_at')[:20]
 
     # Show
-    return render(request, 'posts.html',
+    return render(request, 'Posts.html',
                 {'posts':posts})
 
 def delete(request, post_id):
